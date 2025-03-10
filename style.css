@@ -1,0 +1,1300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "ABeeZee", sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.banner {
+    position: relative;
+}
+
+.bannerbox {
+    position: sticky;
+}
+
+.logobox {
+    position: absolute;
+    left: 20px;
+    top: 6px;
+}
+
+.navbar {
+    position: absolute;
+    left: 227px;
+    top: 30px;
+}
+
+.ulnavbar {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.linavbar {
+    font-size: 15px;
+    display: inline;
+    margin-right: 55px;
+}
+
+.button1 {
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+    width: 50px;
+}
+
+a.Alink:link, a.Alink:visited {
+    color: rgb(123, 139, 147);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alink:hover, a.Alink:active {
+    color: #04305f;
+}
+
+a.Alink1:link, a.Alink1:visited {
+    color: #0067F3;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alink1:hover, a.Alink1:active {
+    color: #0067F3;
+}
+
+.button2 {
+    position: absolute;
+    left: 1075px;
+    top: 15px;
+    width: 170px;
+}
+
+a.Alink2:link, a.Alink2:visited {
+    background-color: #0067F3;
+    color: white;
+    padding: 15px 20px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 2px 5px 30px 2px #0067F3;
+}
+
+a.Alink2:hover, a.Alink2:active {
+    background-color: #0067F3;
+    color: white;
+}
+
+.header {
+    position: relative;
+}
+
+.container1 {
+    position: relative;
+}
+
+.imagebox {
+    position: absolute;
+    top: 160px;
+    margin-top: 45px;
+    margin-left: -80px;
+}
+
+.imageboxinner {
+    position: absolute;
+}
+
+.imageboxinner1 {
+    position: absolute;
+    top: 880px;
+    left: 50px;
+}
+
+.imageboxinner2 {
+    position: absolute;
+    top: 880px;
+    left: 120px;
+}
+
+.imageboxinner3 {
+    position: absolute;
+    top: 880px;
+    left: 190px;
+    padding-bottom: 60px;
+}
+
+.textbox1 {
+    position: relative;
+    background-color: white;
+    border-radius: 1px;
+    width: 300px;
+    height: 150px;
+    top: 700px;
+    left: 300px;
+}
+
+.textbox1inner {
+    position: relative;
+}
+
+.textbox1inner1 {
+    position: absolute;
+    top: 25px;
+    left: 27px;
+}
+
+.parainner1 {
+    color:rgb(123, 139, 147);
+    text-align: left;
+    font-size: 13px;
+}
+
+.textbox1inner2 {
+    background-color: white;
+    position: absolute;
+    top: 117px;
+    left: 27px;
+}
+
+.parainner2 {
+    color: #04305f;
+    text-align: left;
+    font-size: 13px;
+}
+
+.textbox1inner3 {
+    position: absolute;
+    top: 117px;
+    left: 225px;
+}
+
+.parainner3 {
+    color: #0067F3;
+    text-align: left;
+    font-size: 13px;
+}
+
+.textbox2 {
+    position: relative;
+    top: 30px;
+    left: 640px;
+}
+
+.textbox2inner {
+    position: absolute;
+}
+
+.textbox2inner1 {
+    position: absolute;
+    top: 50px;
+    width: 600px;
+}
+
+.headingtextbox2 {
+    font-family: helvetica;
+    font-size: 77px;
+    color: #04305f;
+}
+
+.textbox2inner2 {
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    width: 600px;
+}
+
+.paratextbox2 {
+    font-size: 45px;
+    text-align: left;
+    color: #04305f;
+}
+
+.button3 {
+    position: relative;
+    left: 2px;
+    top: 340px;
+    width: 600px;
+}
+
+#email1 {
+    border: 1px solid rgba(123, 139, 147, 0.258);
+    background-color: white;
+    border-radius: 7px;
+    padding: 14px 52px;
+    font-size: 16px;
+    position: absolute;
+    color: rgb(123, 139, 147);
+}
+
+a.Alink3:link, a.Alink3:visited {
+    background-color: #0067F3;
+    color: white;
+    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    margin-left: 310px;
+    box-shadow: 2px 5px 30px 2px #0067F3;
+}
+
+a.Alink3:hover, a.Alink3:active {
+    background-color: #0067F3;
+    color: white;
+}
+
+.section1 {
+    position: relative;
+}
+
+.container2 {
+    position: relative;
+}
+
+.textbox3 {
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+    width: 700px;
+}
+
+.textbox3inner1 {
+    position: absolute;
+}
+
+.headingtextbox3 {
+    font-family: helvetica;
+    font-size: 73px;
+    color: #04305f;
+}
+
+.little {
+    font-family: helvetica;
+    font-size: 76px;
+    color: #04305f;
+    font-weight: 100;
+}
+
+.paratextbox3 {
+    font-size: 30px;
+    text-align: left;
+    color: #04305f;
+}
+
+.textbox3inner2 {
+    position: absolute;
+    top: 195px;
+}
+
+.button4 {
+    position: absolute;
+    left: 2px;
+    top: 300px;
+}
+
+a.Alink4:link, a.Alink4:visited {
+    background-color: #0067F3;
+    color: white;
+    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 2px 5px 30px 2px #0067F3;
+}
+
+a.Alink4:hover, a.Alink4:active {
+    background-color: #0067F3;
+    color: white;
+}
+
+.imagebox3 {
+    position: absolute;
+    top: 900px;
+    left: 88px;
+}
+
+.floatingboxes {
+    position: relative;
+}
+
+.floatingbox1 {
+    position: absolute;
+    background-color: white;
+    padding: 20px 28px;
+    width: 250px;
+    border-radius: 12px;
+    top: 1310px;
+    left: 410px;
+    text-align: left;
+    border: 1px solid rgba(123, 139, 147, 0.258);
+}
+
+.fb1 {
+    position: absolute;
+    top: 1313px;
+    left: 730px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 55px;
+}
+
+.fb1number, .fb2number, .fb3number {
+    font-size: 16px;
+    color: #04305f;
+}
+
+.floatingbox2 {
+    position: absolute;
+    background-color: white;
+    padding: 20px 28px;
+    width: 250px;
+    border-radius: 12px;
+    top: 1130px;
+    left: 650px;
+    text-align: left;
+    border: 1px solid rgba(123, 139, 147, 0.258);
+}
+
+.fb2 {
+    position: absolute;
+    top: 1130px;
+    left: 970px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 55px;
+}
+
+.floatingbox3 {
+    position: absolute;
+    background-color: white;
+    padding: 20px 28px;
+    width: 250px;
+    border-radius: 12px;
+    top: 950px;
+    left: 909px;
+    text-align: left;
+    border: 1px solid rgba(123, 139, 147, 0.258);
+}
+
+.fb3 {
+    position: absolute;
+    top: 1088px;
+    left: 1180px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 55px;
+}
+
+.floatingboxheading {
+    font-size: 18px;
+    color: #04305f;
+}
+
+.floatingboxpara {
+    font-size: 14px;
+    color:rgb(123, 139, 147);
+    padding-top: 10px;
+}
+
+.section2 {
+    position: relative;
+}
+
+.container3 {
+    position: absolute;
+    top: 1750px;
+}
+
+.textbox4 {
+    position: absolute;
+    left: 280px;
+    width: 800px;
+}
+
+.textbox5 {
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 233px;
+    width: 800px;
+}
+
+.paratextbox5 {
+    color: rgb(123, 139, 147);
+    font-size: 23px;
+}
+
+.textbox6 {
+    position: absolute;
+    left: 360px;
+    top: 180px;
+}
+
+.headingtextbox4 {
+    font-size: 45px;
+    font-family: helvetica;
+    color: #04305f;
+}
+
+.paratextbox6 {
+    color: #04305f;
+    font-size: 140px;
+}
+
+sup {
+    font-size: 30px;
+}
+
+#invest {
+    font-size: 20px;
+    color: #0067F3;
+    border: none;
+}
+
+.textbox7 {
+    position: relative;
+    top: 350px;
+}
+
+.textbox7a {
+    position: absolute;
+    left: 520px;
+}
+
+.textbox7b {
+    position: absolute;
+    left: 660px;
+}
+
+.container4 {
+    position: relative;
+    top: 2300px;
+}
+
+.imagebox4 {
+    position: absolute;
+    left: 385px;
+}
+
+.textbox8 {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 50px;
+    left: 380px;
+    top: -10px;
+    width: 440px;
+    height: 300px;
+    
+}
+
+.headingtextbox8 {
+    position: absolute;
+    text-align: center;
+    left: -50px;
+    top: 10px;
+    width: 600px;
+}
+
+.headingtext8 {
+    font-size: 35px;
+    color: #032244;
+}
+
+.buttontextbox8 {
+    position: absolute;
+    left: 185px;
+    width: 500px;
+    top: 110px;
+}
+
+a.Alink5:link, a.Alink5:visited {
+    background-color: #0067F3;
+    color: white;
+    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 2px 5px 30px 2px #0067F3;
+}
+
+a.Alink5:hover, a.Alink5:active {
+    background-color: #0067F3;
+    color: white;
+}
+
+.canceltextbox8 {
+    position: absolute;
+    left: 230px;
+    width: 500px;
+    top: 180px;
+}
+
+.paratextbox8 {
+    font-size: 15px;
+    color: #0067F3;
+}
+
+.lowertextbox8 {
+    position: absolute;
+    text-align: center;
+    width: 800px;
+    left: -130px;
+    top: 300px;
+}
+
+.lowertext8 {
+    font-size: 15px;
+    color: rgb(123, 139, 147);
+    line-height: 20px;
+}
+
+.section3 {
+    position: relative;
+}
+
+.container5 {
+    position: absolute;
+    top: 2770px;
+}
+
+.textbox9 {
+    position: absolute;
+    width: 500px;
+    left: 40px;
+}
+
+.headingtextbox9 {
+    font-size: 65px;
+    color: #04305f;
+}
+
+.gridboxc5 {
+    position: absolute;
+    top: 300px;
+}
+
+.grid1 {
+    position: absolute;
+    left: 10px;
+    width: 450px;
+    border: 1px solid #0067F3;
+    padding: 50px 30px 260px 50px;
+    border-radius: 26px;
+}
+
+.grid2 {
+    position: absolute;
+    left: 570px;
+    width: 450px;
+    border: 1px solid #0067F3;
+    padding: 50px 30px 260px 50px;
+    border-radius: 26px;
+}
+
+.grid3 {
+    position: absolute;
+    left: 1130px;
+    width: 450px;
+    border: 1px solid #0067F3;
+    padding: 50px 30px 260px 50px;
+    border-radius: 26px;
+}
+
+.quotebox {
+    position: absolute;
+    text-align: left;
+}
+
+.quote {
+    font-size: 55px;
+    color: #0067F3;
+}
+
+.textboxgrid {
+    position: absolute;
+    top: 120px;
+}
+
+.gridtext {
+    text-align: left;
+    color: #0067F3;
+    font-size: 50px;
+}
+
+.section4 {
+    position: relative;
+}
+
+.container6 {
+    position: relative;
+    top: 3500px;
+    height: 1000px;
+    background-color: rgb(249, 249, 249);
+}
+
+.imagebox {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+
+.textbox10 {
+    position: absolute;
+}
+
+.headingtextbox10 {
+    position: absolute;
+    left: 720px;
+    top: 128px;
+    width: 550px;
+}
+
+.headingtext10 {
+    font-size: 47px;
+    color: #04305f;
+}
+
+.itemtextbox10a {
+    position: absolute;
+    left: 808px;
+    top: 260px;
+    width: 550px;
+}
+
+.itemtextbox10b {
+    position: absolute;
+    left: 808px;
+    top: 420px;
+    width: 550px;
+}
+
+.itemtextbox10c {
+    position: absolute;
+    left: 808px;
+    top: 580px;
+    width: 550px;
+}
+
+.numberboxtb10 {
+    position: absolute;
+    left: -80px;
+}
+
+.ntb10 {
+    font-size: 22px;
+    color: #0067F3;
+    text-align: left;
+}
+
+.contentboxtb10 {
+    position: absolute;
+
+}
+
+.htb10 {
+    font-size: 25px;
+    color: #04305f;
+}
+
+.ptb10 {
+    font-size: 19px;
+    color: rgb(123, 139, 147);
+    line-height: 25px;
+}
+
+.buttontextbox10 {
+    position: absolute;
+    left: 730px;
+    top: 750px;
+    width: 500px;
+}
+
+a.Alink6:link, a.Alink6:visited {
+    background-color: #0067F3;
+    color: white;
+    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    box-shadow: 2px 5px 30px 2px #0067F3;
+}
+
+a.Alink6:hover, a.Alink6:active {
+    background-color: #0067F3;
+    color: white;
+}
+
+.section5 {
+    position: relative;
+}
+
+.container7 {
+    position: relative;
+    top: 3500px;
+    height: 1000px;
+    background-color: #0067F3;
+}
+
+.textbox11 {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.headingtext11 {
+    font-size: 47px;
+    color: white;
+    text-align: left;
+}
+
+.paratext11 {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+
+a.Alink7:link, a.Alink7:visited {
+    color: rgba(255, 255, 255, 0.58);
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alink7:hover, a.Alink7:active {
+    color: white;
+}
+
+.imageboxs5 {
+    position: absolute;
+    left: 800px;
+    top: 50px;
+    opacity: 60%;
+}
+
+.listboxs5 {
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}
+
+.listboxs5a {
+    position: absolute;
+    left: 550px;
+    top: 350px;
+}
+
+ul.ulc5 {
+    list-style-image: url('listboxmarker.png');
+    padding: 20px;
+    display: inline-block;
+}
+
+ul.ulc5 li {
+    margin: 10px;
+}
+
+li {
+    color: white;
+}
+
+.headinglbs5 {
+    font-size: 22px;
+    color: white;
+}
+
+.paralbs5 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.776);
+    line-height: 27px;
+}
+
+.listmarker1 {
+    position: absolute;
+    left: 25px;
+    top: 380px;
+}
+
+.listmarker2 {
+    position: absolute;
+    left: 25px;
+    top: 616px;
+}
+
+.listmarker3 {
+    position: absolute;
+    left: 515px;
+    top: 380px;
+}
+
+.listmarker4 {
+    position: absolute;
+    left: 515px;
+    top: 616px;
+}
+
+.section6 {
+    position: relative;
+}
+
+.container8 {
+    position: relative;
+    top: 3500px;
+    height: 1000px;
+    background-color: white;
+}
+
+.textbox12 {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.ptb12 {
+    font-size: 15px;
+    color: #04305f;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.movingtextboxl {
+    position: absolute;
+    top: 60px;
+    width: 1000px;
+}
+
+.mtb1 {
+    font-size: 61px;
+    font-weight: 200;
+    color: rgb(123, 139, 147);
+}
+
+.movingtextbox2 {
+    position: absolute;
+    left: 950px;
+    top: 59px;
+}
+
+.mtb2 {
+    font-size: 62px;
+    font-weight: 200;
+    color: #04305f;
+}
+
+.gridboxc8 {
+    position: absolute;
+    top: 280px;
+    width: 1000px;
+}
+
+.gridc8a {
+    position: absolute;
+    border: 1px solid rgb(123, 139, 147);
+    padding: 50px 66px 50px 30px;
+    width: 505px;
+    height: 200px;
+    left: 20px;
+    border-radius: 26px;
+}
+
+.gridc8b {
+    position: absolute;
+    border: 1px solid rgb(123, 139, 147);
+    padding: 50px 60px 50px 30px;
+    width: 480px;
+    height: 200px;
+    left: 660px;
+    border-radius: 26px;
+}
+
+.ratingboxa {
+    position: absolute;
+    left: 100px;
+}
+
+.ratingboxb {
+    position: absolute;
+    left: 130px;
+}
+
+.appstoreboxa {
+    position: absolute;
+    left: 440px;
+    top: 33px;
+}
+
+.appstoreboxb {
+    position: absolute;
+    left: 390px;
+    top: 33px;
+}
+
+.appstorelogo {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    color: white;
+}
+
+.pointsratinga {
+    position: absolute;
+    top: -17px;
+    left: -70px;
+    display: inline;
+}
+
+.starsratinga {
+    position: absolute;
+    top: -17px;
+    left: 20px;
+}
+
+.pointsratingb {
+    position: absolute;
+    top: -17px;
+    left: -100px;
+    display: inline;
+}
+
+.starsratingb {
+    position: absolute;
+    top: -17px;
+    left: 10px;
+}
+
+.hpr {
+    font-size: 40px;
+    color: #04305f;
+}
+
+.hprmin {
+    font-size: 20px;
+    color: rgb(123, 139, 147);
+}
+
+.textboxc8a, .textboxc8b {
+    position: absolute;
+    top: 100px;
+}
+
+.htbc8a, .htbc8b {
+    font-size: 20px;
+    color: #04305f;
+}
+
+.ptbc8a, .ptbc8b {
+    font-size: 12px;
+    color: rgb(123, 139, 147);
+    line-height: 20px;
+}
+
+a.Alink8a:link, a.Alink8a:visited {
+    background-color: #04305f;
+    padding: 7px 5px 7px 38px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+a.Alink8a:hover, a.Alink8a:active {
+    background-color: #04305f;
+    color: white;
+}
+
+.al8amin, .al8bmin {
+    font-size: 9px;
+    padding: 1px 20px 2px 10px;
+}
+
+.al8amax, .al8bmax {
+    font-size: 13px;
+    padding: 1px 10px;
+    font-weight: 200px;
+}
+
+a.Alink8b:link, a.Alink8b:visited {
+    color: #0067F3; 
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.Alink8b:hover, a.Alink8b:active {
+    color: #0067F3;
+}
+
+.signupboxc8 {
+    position: absolute;
+    background-color: #0067F3;
+    padding: 50px 300px;
+    border-radius: 20px;
+    top: 700px;
+    left: 30px;
+    width: 600px;
+    height: 180px;
+    box-shadow: 2px 7px 30px 2px #0067F3;
+}
+
+.textbox13 {
+    position: absolute;
+    left: 120px;
+    top: 90px;
+}
+
+.htb13 {
+    font-size: 40px;
+    color: white;
+}
+
+.inputboxc8 {
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+
+#emailc8 {
+    background-color: rgba(255, 255, 255, 0.311);
+    border-radius: 7px;
+    padding: 23px 230px 20px 20px;
+    font-size: 14px;
+    position: absolute;
+    border: none;
+}
+
+.signupbuttonc8 {
+    position: absolute;
+    top: 3px;
+    left: 765px;
+    width: 200px;
+}
+
+.signuptextfieldc8 {
+    position: absolute;
+    top: -2px;
+    left: 530px;
+}
+
+a.Alinkc8:link, a.Alinkc8:visited {
+    background-color: white;
+    color: #04305f;
+    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+a.Alinkc8:hover, a.Alinkc8:active {
+    background-color: #04305f;
+    color: white;
+}
+
+.footer1 {
+    position: relative;
+    top: 3610px;
+}
+
+.footergridcontainer1 {
+    position: absolute;
+    left: 33px;
+}
+
+.fgc1 {
+    position: absolute;
+    height: 400px;
+    left: 27px;
+    top: 10px;
+    width: 250px;
+}
+
+.fgc2 {
+    position: absolute;
+    height: 400px;
+    left: 300px;
+    top: 10px;
+    width: 250px;
+}
+
+.fgc3 {
+    position: absolute;
+    height: 400px;
+    left: 630px;
+    top: 10px;
+    width: 250px;
+}
+
+.fgc4 {
+    position: absolute;
+    height: 400px;
+    left: 930px;
+    top: 10px;
+    width: 100px;
+}
+
+.fgc5 {
+    position: absolute;
+    height: 400px;
+    left: 900px;
+    top: 10px;
+}
+
+.fgc1heading {
+    font-size: 20px;
+    color: #04305f;
+}
+
+.fgc1ul {
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.fgcli {
+    color: rgb(123, 139, 147);
+    font-size: 17px;
+}
+
+a.Alinkfgc:link, a.Alinkfgc:visited {
+    color: rgb(123, 139, 147); 
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+a.Alinkfgc:hover, a.Alinkfgc:active {
+    color: #0067F3;
+}
+
+.footergridcontainer2 {
+    position: absolute;
+    left: 33px;
+    top: 633px;
+}
+
+.socialsbox {
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.fa-brands {
+    color: rgb(123, 139, 147);
+    font-size: 20px;
+}
+
+.addressbox {
+    position: absolute;
+    top: 85px;
+    width: 500px;
+    line-height: 25px;
+}
+
+.ngadd {
+    font-size: 14px;
+    color: #04305f;
+}
+
+.usadd {
+    font-size: 14px;
+    color: #04305f;
+}
+
+.secimagebox {
+    position: absolute;
+    top: 80px;
+    left: 980px;
+    width: 225px;
+    height: 65px;
+    background-color: white;
+    border: 1px solid rgb(123, 139, 147);
+    border-radius: 10px;
+}
+
+.seclogo {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+
+.sec {
+    position: absolute;
+}
+
+.sectext {
+    position: absolute;
+    width: 150px;
+    left: 63px;
+    top: 15px;
+}
+
+.hsect {
+    font-size: 14px;
+    color: #04305f;
+}
+
+.psect {
+    font-size: 10px;
+    color: rgb(123, 139, 147);
+    padding-top: 3px;
+}
+
+.legalbox {
+    position: absolute;
+    top: 200px;
+    width: 1200px;
+}
+
+.legaltextbox {
+    position: absolute;
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.paralegal {
+    font-size: 12px;
+    color: rgb(123, 139, 147);
+    line-height: 20px;
+}
+
+a.Alinklegal:link, a.Alinklegal:visited {
+    color: #0067F3;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline;
+}
+
+a.Alinklegal:hover, a.Alinklegal:active {
+    color: #0067F3;
+}
