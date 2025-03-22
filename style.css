@@ -817,29 +817,29 @@ a.Alink-textbox8:hover, a.Alink-textbox8:active {
 
 .section5 {
     position: relative;
+    height: 150vh;
+    overflow: hidden;
 }
 
 .container7 {
-    position: relative;
-    top: 3500px;
-    height: 1000px;
+    height: 150vh;
     background-color: #0067F3;
+    padding-left: 2.5vw;
+    align-content: center;
 }
 
 .textbox11 {
-    position: absolute;
-    top: 100px;
-    left: 30px;
+    width: 40vw;
 }
 
 .headingtext11 {
-    font-size: 47px;
+    font-size: 7vh;
     color: white;
     text-align: left;
 }
 
 .paratext11 {
-    font-size: 20px;
+    font-size: 2.5vh;
     color: white;
     text-align: left;
     line-height: 25px;
@@ -849,7 +849,7 @@ a.Alink-textbox8:hover, a.Alink-textbox8:active {
 a.Alink7:link, a.Alink7:visited {
     color: rgba(255, 255, 255, 0.58);
     text-align: center;
-    font-size: 14px;
+    font-size: 2vh;
     text-decoration: none;
     display: inline-block;
 }
@@ -860,27 +860,37 @@ a.Alink7:hover, a.Alink7:active {
 
 .imageboxs5 {
     position: absolute;
-    left: 800px;
-    top: 50px;
+    left: 64vw;
+    top: 20vh;
     opacity: 60%;
 }
 
+.imgs5 {
+    height: 110vh;
+}
+
+.listboxs5main {
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    align-items: center;
+}
+
 .listboxs5 {
-    position: absolute;
-    left: 50px;
-    top: 350px;
+    height: 70vh;
 }
 
 .listboxs5a {
-    position: absolute;
-    left: 550px;
-    top: 350px;
+    height: 70vh;
 }
 
 ul.ulc5 {
     list-style-image: url('listboxmarker.png');
     padding: 20px;
     display: inline-block;
+    width: 30vw;
+    padding-left: 3vw;
 }
 
 ul.ulc5 li {
@@ -892,38 +902,40 @@ li {
 }
 
 .headinglbs5 {
-    font-size: 22px;
+    font-size: 3vh;
     color: white;
 }
 
 .paralbs5 {
-    font-size: 18px;
+    font-size: 2.5vh;
     color: rgba(255, 255, 255, 0.776);
     line-height: 27px;
 }
 
+.listmarker {
+    height: 4vh;
+}
+
 .listmarker1 {
     position: absolute;
-    left: 25px;
-    top: 380px;
+    top: 63.3vh;
 }
 
 .listmarker2 {
     position: absolute;
-    left: 25px;
-    top: 616px;
+    top: 94.2vh;
 }
 
 .listmarker3 {
     position: absolute;
-    left: 515px;
-    top: 380px;
+    left: 43vw;
+    top: 63.3vh;
 }
 
 .listmarker4 {
     position: absolute;
-    left: 515px;
-    top: 616px;
+    left: 43vw;
+    top: 94.2vh;
 }
 
 .section6 {
@@ -2205,6 +2217,136 @@ a.Alinklegal:hover, a.Alinklegal:active {
         line-height: 2vh;
         text-align: center;
     }
+
+    .section5 {
+        position: relative;
+        height: 75vh;
+        overflow: hidden;
+    }
+    
+    .container7 {
+        height: 75vh;
+        background-color: #0067F3;
+        padding-left: 2.5vw;
+        align-content: center;
+    }
+    
+    .textbox11 {
+        width: 90vw;
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headingtext11 {
+        font-size: 3.3vh;
+        color: white;
+        text-align: left;
+    }
+    
+    .paratext11 {
+        font-size: 1.3vh;
+        color: white;
+        text-align: left;
+        margin-top: -1vh;
+    }
+    
+    a.Alink7:link, a.Alink7:visited {
+        color: rgba(255, 255, 255, 0.58);
+        text-align: center;
+        font-size: 1.2vh;
+        text-decoration: none;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    a.Alink7:hover, a.Alink7:active {
+        color: white;
+    }
+    
+    .imageboxs5 {
+        position: absolute;
+        left: 49vw;
+        top: 10vh;
+        opacity: 60%;
+        z-index: 0;
+    }
+    
+    .imgs5 {
+        height: 55vh;
+    }
+    
+    .listboxs5main {
+        position: relative;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90vw;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .listboxs5 {
+        height: 25vh;
+    }
+    
+    .listboxs5a {
+        height: 25vh;
+    }
+    
+    ul.ulc5 {
+        list-style-image: url('listboxmarker.png');
+        padding: 10px;
+        display: inline-block;
+        width: 85vw;
+        padding-left: 3vw;
+    }
+    
+    ul.ulc5 li {
+        margin: 10px;
+    }
+    
+    li {
+        color: white;
+    }
+    
+    .headinglbs5 {
+        font-size: 1.6vh;
+        color: white;
+    }
+    
+    .paralbs5 {
+        font-size: 1.3vh;
+        color: rgba(255, 255, 255, 0.776);
+        line-height: 27px;
+    }
+    
+    .listmarker {
+        height: 2.4vh;
+    }
+    
+    .listmarker1 {
+        position: absolute;
+        top: 20.4vh;
+    }
+    
+    .listmarker2 {
+        position: absolute;
+        top: 31.4vh;
+    }
+    
+    .listmarker3 {
+        position: absolute;
+        top: 45.4vh;
+        left: 2.5vw;
+    }
+    
+    .listmarker4 {
+        position: absolute;
+        top: 56.4vh;
+        left: 2.5vw;
+    }
  }
 
   /* Mobile screen */
@@ -2227,7 +2369,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     header {
         height: 200vh;
-        width: 243vw;
+        width: 275vw;
     }
 
     header .videobox {
@@ -2239,7 +2381,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     .videovid {
         height: 200vh;
-        width: 243vw;
+        width: 275vw;
         object-fit:cover;
         overflow-clip-margin: content-box;
         overflow: clip;
@@ -2254,7 +2396,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     .banner {
         display: flex;
         height: 15vh;
-        width: 230vw;
+        width: 275vw;
         justify-content: space-between;
         z-index: 99;
         position: absolute;
@@ -2263,7 +2405,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     .bannerbox {
         height: 10vh;
-        width: 220vw;
+        width: 270vw;
         margin: auto;
         display: flex;
         justify-content: space-between;
@@ -2282,7 +2424,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     .logobox {
         height: 2vh;
-        margin-left: 3vw;
+        margin-left: 4vw;
     }
     
     .navbar {
@@ -2371,7 +2513,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
         width: 10vw;
         z-index: 99;
         margin-top: 6vh;
-        margin-left: 215vw;
+        margin-left: 250vw;
     }
     
     .fa-solid {
@@ -2458,7 +2600,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     .section1 {
         height: 200vh;
-        width: 243vw;
+        width: 275vw;
         background-image: url("bars.png");
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -2480,7 +2622,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     .textbox3 {
         height: 66vh;
-        width: 200vw;
+        width: 250vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -2635,7 +2777,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
 
     .section3 {
         height: 145vh;
-        width: 243vw;
+        width: 275vw;
     }
     
     .container5 {
@@ -2712,7 +2854,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     .section4 {
         position: relative;
         height: 355vh;
-        width: 243vw;
+        width: 275vw;
         background-color: white;
     }
     
@@ -2839,7 +2981,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
 
     .section2 {
         height: 200vh;
-        width: 243vw;
+        width: 275vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -3074,5 +3216,142 @@ a.Alinklegal:hover, a.Alinklegal:active {
         color: rgb(88, 102, 109);
         line-height: 6vh;
         text-align: center;
+    }
+
+    .section5 {
+        position: relative;
+        height: 370vh;
+        width: 275vw;
+        overflow: hidden;
+    }
+    
+    .container7 {
+        height: 370vh;
+        background-color: #0067F3;
+        align-content: center;
+    }
+    
+    .textbox11 {
+        width: 250vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .headingtext11 {
+        font-size: 10vh;
+        color: white;
+        text-align: left;
+    }
+    
+    .paratext11 {
+        font-size: 5vh;
+        color: white;
+        text-align: left;
+        margin-top: -1vh;
+        line-height: 7vh;
+    }
+    
+    a.Alink7:link, a.Alink7:visited {
+        color: rgba(255, 255, 255, 0.58);
+        text-align: center;
+        font-size: 4vh;
+        text-decoration: none;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    a.Alink7:hover, a.Alink7:active {
+        color: white;
+    }
+    
+    .imageboxs5 {
+        position: absolute;
+        left: 49vw;
+        top: 10vh;
+        opacity: 60%;
+        z-index: 0;
+        display: none;
+    }
+    
+    .imgs5 {
+        height: 55vh;
+    }
+    
+    .listboxs5main {
+        position: relative;
+        height: 242vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 255vw;
+        align-items: center;
+        z-index: 1;
+        margin: auto;
+        margin-top: 15vh;
+    }
+    
+    .listboxs5 {
+        height: 120vh;
+    }
+    
+    .listboxs5a {
+        height: 120vh;
+    }
+    
+    ul.ulc5 {
+        list-style-image: url('listboxmarker.png'); 
+        display: inline-block;
+        width: 222vw;
+        padding-left: 3vw;
+    }
+    
+    ul.ulc5 li {
+        margin: 10px;
+    }
+    
+    li {
+        color: white;
+    }
+    
+    .headinglbs5 {
+        font-size: 6vh;
+        color: white;
+    }
+    
+    .paralbs5 {
+        font-size: 5vh;
+        color: rgba(255, 255, 255, 0.776);
+        line-height: 8vh;
+    }
+    
+    .listmarker {
+        height: 9vh;
+    }
+    
+    .listmarker1 {
+        position: absolute;
+        top: 104vh;
+        left: 5vw;
+    }
+    
+    .listmarker2 {
+        position: absolute;
+        top: 159vh;
+        left: 5vw;
+    }
+    
+    .listmarker3 {
+        position: absolute;
+        top: 225vh;
+        left: 5vw;
+    }
+    
+    .listmarker4 {
+        position: absolute;
+        top: 288.5vh;
+        left: 5vw;
     }
 }
