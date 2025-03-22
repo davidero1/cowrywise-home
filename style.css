@@ -8,14 +8,40 @@ body {
 }
 
 header {
+    height: 120vh;
+}
+
+header .videobox {
+    height: 100%;
+    width: 99vw;
+    transform: scale(1.4) translate3d(150px, 80px, 0);
+    z-index: 0;
     position: relative;
-    height: 124vh;
+}
+
+.videovid {
+    height: 89.3vh;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.container1 {
+    height: 118vh;
+    width: 98.8vw;
+    top: 0;
+    position:absolute;
+}
+
+.barsicon {
+    display: none;
 }
 
 .banner {
     display: flex;
     height: 15vh;
-    width: 98.7vw;
+    width: 98.4vw;
+    margin: auto;
     z-index: 99;
     position: absolute;
     top: 0;
@@ -28,6 +54,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.cwlogo {
+    height: 29px;
+    width: 152px;
 }
 
 .logobox {
@@ -113,63 +144,25 @@ a.Alink2:hover, a.Alink2:active {
     color: white;
 }
 
-header .videobox {
-    height: 100%;
-    width: 99vw;
-    transform: scale(1.4) translate3d(150px, 80px, 0);
-    z-index: 0;
-    position: relative;
-}
-
-.videovid {
-    height: 89.3vh;
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
-.container1 {
-    position: relative;
-}
-
-.imageboxinner {
-    position: absolute;
-}
-
-.imageboxinner1 {
-    position: absolute;
-    top: 880px;
-    left: 50px;
-}
-
-.imageboxinner2 {
-    position: absolute;
-    top: 880px;
-    left: 120px;
-}
-
-.imageboxinner3 {
-    position: absolute;
-    top: 880px;
-    left: 190px;
-    padding-bottom: 60px;
-}
-
 .textbox2 {
     position: relative;
     height: 60vh;
     width: 45vw;
     margin-left: 3vw;
-    margin-top: -58vh;
+    margin-top: 40vh;
 }
 
 .textbox2inner {
     position: absolute;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .textbox2inner1 {
     position: absolute;
-    top: 50px;
     width: 600px;
 }
 
@@ -180,9 +173,7 @@ header .videobox {
 }
 
 .textbox2inner2 {
-    position: absolute;
-    top: 250px;
-    width: 600px;
+    margin-top: 30vh;
 }
 
 .paratextbox2 {
@@ -192,10 +183,9 @@ header .videobox {
 }
 
 .button3 {
-    position: relative;
-    left: 2px;
-    top: 340px;
-    width: 600px;
+    width: 36vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 #email1 {
@@ -204,7 +194,6 @@ header .videobox {
     border-radius: 7px;
     padding: 14px 52px;
     font-size: 16px;
-    position: absolute;
     color: rgb(123, 139, 147);
 }
 
@@ -213,11 +202,11 @@ a.Alink3:link, a.Alink3:visited {
     color: white;
     padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
     text-align: center;
+    margin-left: 1vw;
     font-size: 16px;
     text-decoration: none;
     display: inline-block;
     border-radius: 7px;
-    margin-left: 250px;
     box-shadow: 2px 5px 30px 2px #0067F3;
 }
 
@@ -396,44 +385,261 @@ a.Alink4:hover, a.Alink4:active {
     padding-top: 10px;
 }
 
-.section2 {
+.section3 {
+    height: 120vh;
+}
+
+.container5 {
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textbox9 {
+    width: 45vw;
+    margin-left: 2.4vw;
+}
+
+.headingtextbox9 {
+    font-size: 10vh;
+    color: #04305f;
+    line-height: 10vh;
+}
+
+.gridboxc5 {
+    height: 50vh;
+    width: 117vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid1 {
+    width: 450px;
+    border: 1px solid #0067F3;
+    padding: 60px 30px 260px 50px;
+    border-radius: 26px;
+    display: flex;
+}
+
+.grid2 {
+    width: 450px;
+    border: 1px solid #0067F3;
+    padding: 60px 30px 260px 50px;
+    border-radius: 26px;
+    display: flex;
+}
+
+.grid3 {
+    width: 450px;
+    border: 1px solid #0067F3;
+    padding: 60px 30px 260px 50px;
+    border-radius: 26px;
+    display: flex;
+}
+
+.quotebox {
+    height: 6vh;
+    width: 2vw;
+}
+
+.quote {
+    font-size: 55px;
+    color: #0067F3;
+}
+
+.textboxgrid {
+    height: 30vh;
+}
+
+.gridtext {
+    text-align: left;
+    color: #0067F3;
+    font-size: 50px;
+}
+
+.section4 {
     position: relative;
+    height: 150vh;
+    background-color: white;
+}
+
+.container6 {
+    height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagebox {
+    height: 117vh;
+}
+
+.phoneimg {
+    height: 125vh;
+}
+
+.textbox10 {
+    height: 110vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headingtextbox10 {
+    width: 36vw;
+}
+
+.headingtext10 {
+    font-size: 7vh;
+    color: #04305f;
+}
+
+.itemtextbox10a {
+    width: 32vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemtextbox10b {
+    width: 32vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemtextbox10c {
+    width: 32vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberboxtb10 {
+    width: 3vw;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ntb10 {
+    font-size: 22px;
+    color: #0067F3;
+    text-align: left;
+}
+
+.line {
+    color: #0067F3;
+    rotate: -90deg;
+    margin-left: -2vw;
+}
+
+.contentboxtb10 {
+    width: 27vw;
+}
+
+.htb10 {
+    font-size: 3.5vh;
+    color: #04305f;
+}
+
+.ptb10 {
+    font-size: 2.7vh;
+    color: rgb(88, 102, 109);
+    line-height: 25px;
+}
+
+.buttontextbox10 {
+    width: 32vw;
+    height: 15vh;
+    align-content: center;
+}
+
+a.Alink6:link, a.Alink6:visited {
+    background-color: #0067F3;
+    color: white;
+    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 2px 5px 30px 2px #0067F3;
+}
+
+a.Alink6:hover, a.Alink6:active {
+    background-color: #0067F3;
+    color: white;
+}
+
+.section2 {
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container3 {
-    position: absolute;
-    top: 1750px;
+    height: 40vh;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .textbox4 {
-    position: absolute;
-    left: 280px;
-    width: 800px;
+    margin: auto;
 }
 
 .textbox5 {
-    position: absolute;
     text-align: center;
-    top: 110px;
-    left: 233px;
-    width: 800px;
+    margin: auto;
 }
 
 .paratextbox5 {
-    color: rgb(123, 139, 147);
+    color: rgb(104, 121, 129);
     font-size: 23px;
+    text-align: center;
 }
 
 .textbox6 {
-    position: absolute;
-    left: 360px;
-    top: 180px;
+   margin: auto;
+}
+
+#amnt {
+    border: none;
+    height: 25vh;
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    padding-top: 0vh;
+    font-size: 22vh;
+    color: #032244;
+    font-family: helvetica;
+    letter-spacing: -0.1vw;
+    cursor: text;
+}
+
+#amnt::placeholder {
+    font-size: 22vh;
+    text-align: center;
+    font-family: helvetica;
+    color: #032244;
+    letter-spacing: -0.1vw;
 }
 
 .headingtextbox4 {
     font-size: 45px;
     font-family: helvetica;
     color: #04305f;
+    letter-spacing: -0.1vw;
 }
 
 .paratextbox6 {
@@ -448,52 +654,111 @@ sup {
 #invest {
     font-size: 20px;
     color: #0067F3;
+    cursor: pointer;
     border: none;
 }
 
+.scale {
+    height: 13vh;
+    align-self: center;
+    align-content: center;
+    z-index: 3;
+}
+
+.slider {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 60vw;
+    height: 1px;
+    background: #0067F3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 0.5;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid rgb(104, 121, 129);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #0067F3;
+    cursor: pointer;
+  }
+
 .textbox7 {
-    position: relative;
-    top: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 6vh;
+    width: 40vw;
+    margin: auto;
 }
 
 .textbox7a {
-    position: absolute;
-    left: 520px;
+   width: 6vw;
+   cursor: pointer;
 }
 
 .textbox7b {
-    position: absolute;
-    left: 660px;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.textbox7c {
+    width: 10vw;
+    cursor: pointer;
 }
 
 .container4 {
-    position: relative;
-    top: 2300px;
+    height: 50vh;
+    width: 60vw;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .imagebox4 {
+    display: inline;
+    z-index: 0;
     position: absolute;
-    left: 385px;
+}
+
+.notyetimg {
+    height: 55vh;
 }
 
 .textbox8 {
+    width: 45vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.909);
+    z-index: 1;
     position: absolute;
-    background-color: white;
-    border-radius: 5px;
-    padding: 30px 50px;
-    left: 380px;
-    top: -10px;
-    width: 440px;
-    height: 300px;
-    
+    margin-top: 5vh;
 }
 
 .headingtextbox8 {
-    position: absolute;
     text-align: center;
-    left: -50px;
-    top: 10px;
-    width: 600px;
+    margin-top: 3vh;
 }
 
 .headingtext8 {
@@ -502,10 +767,7 @@ sup {
 }
 
 .buttontextbox8 {
-    position: absolute;
-    left: 185px;
-    width: 500px;
-    top: 110px;
+    width: 10vw;
 }
 
 a.Alink5:link, a.Alink5:visited {
@@ -513,7 +775,7 @@ a.Alink5:link, a.Alink5:visited {
     color: white;
     padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
     text-align: center;
-    font-size: 16px;
+    font-size: 2.4vh;
     text-decoration: none;
     display: inline-block;
     border-radius: 7px;
@@ -521,212 +783,36 @@ a.Alink5:link, a.Alink5:visited {
 }
 
 a.Alink5:hover, a.Alink5:active {
-    background-color: #0067F3;
+    background-color: #0047ab;
+    transition: 0.5s ease-in-out;
     color: white;
 }
 
 .canceltextbox8 {
-    position: absolute;
-    left: 230px;
-    width: 500px;
-    top: 180px;
+    width: 5vw;
 }
 
-.paratextbox8 {
-    font-size: 15px;
+a.Alink-textbox8:link, a.Alink-textbox8:visited  {
+    font-size: 2.5vh;
+    text-decoration: none;
     color: #0067F3;
+    font-weight: 600;
+}
+
+a.Alink-textbox8:hover, a.Alink-textbox8:active {
+    color: #0047ab;
 }
 
 .lowertextbox8 {
-    position: absolute;
-    text-align: center;
-    width: 800px;
-    left: -130px;
-    top: 300px;
+    margin-bottom: 2vh;
+    width: 60vw;
 }
 
 .lowertext8 {
-    font-size: 15px;
+    font-size: 2.3vh;
     color: rgb(123, 139, 147);
-    line-height: 20px;
-}
-
-.section3 {
-    position: relative;
-}
-
-.container5 {
-    position: absolute;
-    top: 2770px;
-}
-
-.textbox9 {
-    position: absolute;
-    width: 500px;
-    left: 40px;
-}
-
-.headingtextbox9 {
-    font-size: 65px;
-    color: #04305f;
-}
-
-.gridboxc5 {
-    position: absolute;
-    top: 300px;
-}
-
-.grid1 {
-    position: absolute;
-    left: 10px;
-    width: 450px;
-    border: 1px solid #0067F3;
-    padding: 50px 30px 260px 50px;
-    border-radius: 26px;
-}
-
-.grid2 {
-    position: absolute;
-    left: 570px;
-    width: 450px;
-    border: 1px solid #0067F3;
-    padding: 50px 30px 260px 50px;
-    border-radius: 26px;
-}
-
-.grid3 {
-    position: absolute;
-    left: 1130px;
-    width: 450px;
-    border: 1px solid #0067F3;
-    padding: 50px 30px 260px 50px;
-    border-radius: 26px;
-}
-
-.quotebox {
-    position: absolute;
-    text-align: left;
-}
-
-.quote {
-    font-size: 55px;
-    color: #0067F3;
-}
-
-.textboxgrid {
-    position: absolute;
-    top: 120px;
-}
-
-.gridtext {
-    text-align: left;
-    color: #0067F3;
-    font-size: 50px;
-}
-
-.section4 {
-    position: relative;
-}
-
-.container6 {
-    position: relative;
-    top: 3500px;
-    height: 1000px;
-    background-color: rgb(249, 249, 249);
-}
-
-.imagebox {
-    position: absolute;
-    left: 130px;
-    top: 100px;
-}
-
-.textbox10 {
-    position: absolute;
-}
-
-.headingtextbox10 {
-    position: absolute;
-    left: 720px;
-    top: 128px;
-    width: 550px;
-}
-
-.headingtext10 {
-    font-size: 47px;
-    color: #04305f;
-}
-
-.itemtextbox10a {
-    position: absolute;
-    left: 808px;
-    top: 260px;
-    width: 550px;
-}
-
-.itemtextbox10b {
-    position: absolute;
-    left: 808px;
-    top: 420px;
-    width: 550px;
-}
-
-.itemtextbox10c {
-    position: absolute;
-    left: 808px;
-    top: 580px;
-    width: 550px;
-}
-
-.numberboxtb10 {
-    position: absolute;
-    left: -80px;
-}
-
-.ntb10 {
-    font-size: 22px;
-    color: #0067F3;
-    text-align: left;
-}
-
-.contentboxtb10 {
-    position: absolute;
-
-}
-
-.htb10 {
-    font-size: 25px;
-    color: #04305f;
-}
-
-.ptb10 {
-    font-size: 19px;
-    color: rgb(123, 139, 147);
-    line-height: 25px;
-}
-
-.buttontextbox10 {
-    position: absolute;
-    left: 730px;
-    top: 750px;
-    width: 500px;
-}
-
-a.Alink6:link, a.Alink6:visited {
-    background-color: #0067F3;
-    color: white;
-    padding: 15px 28px; /*top & bottom, right & left is for 2 values*/
+    line-height: 3.3vh;
     text-align: center;
-    font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 7px;
-    box-shadow: 2px 5px 30px 2px #0067F3;
-}
-
-a.Alink6:hover, a.Alink6:active {
-    background-color: #0067F3;
-    color: white;
 }
 
 .section5 {
@@ -1298,8 +1384,28 @@ a.Alinklegal:hover, a.Alinklegal:active {
     }
     
     header {
+        height: 50vh;
+    }
+
+    header .videobox {
+        height: 50vh;
+        width: 100%;
+        transform: scale(1.0) translate3d(0, 0, 0);
+        z-index: 0;
         position: relative;
+        overflow: hidden;
+    }
+    
+    .videovid {
         height: 60vh;
+        object-fit:cover;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    
+    .container1 {
+        top: 0;
+        position:absolute;
     }
     
     .banner {
@@ -1310,6 +1416,10 @@ a.Alinklegal:hover, a.Alinklegal:active {
         position: absolute;
         top: 0;
     }
+
+    .barsicon {
+        display: none;
+    }
     
     .bannerbox {
         height: 10vh;
@@ -1318,6 +1428,11 @@ a.Alinklegal:hover, a.Alinklegal:active {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .cwlogo {
+        height: 29px;
+        width: 152px;
     }
     
     .logobox {
@@ -1403,77 +1518,35 @@ a.Alinklegal:hover, a.Alinklegal:active {
         color: white;
     }
     
-    header .videobox {
-        height: 80%;
-        width: 100%;
-        transform: scale(1.0) translate3d(0, 0, 0);
-        z-index: 0;
-        position: relative;
-    }
-    
-    .videovid {
-        height: 60vh;
-        object-fit:cover;
-        overflow-clip-margin: content-box;
-        overflow: clip;
-    }
-    
-    .container1 {
-        position: relative;
-    }
-    
-    .imageboxinner {
-        position: absolute;
-    }
-    
-    .imageboxinner1 {
-        position: absolute;
-        top: 880px;
-        left: 50px;
-    }
-    
-    .imageboxinner2 {
-        position: absolute;
-        top: 880px;
-        left: 120px;
-    }
-    
-    .imageboxinner3 {
-        position: absolute;
-        top: 880px;
-        left: 190px;
-        padding-bottom: 60px;
-    }
-    
     .textbox2 {
-        height: 33vh;
-        width: 43vw;
+        height: 30vh;
+        width: 45vw;
         margin-left: 3vw;
-        margin-top: -50vh;
+        margin-top: 15vh;
         display: flex;
         flex-direction: column;
     }
     
     .textbox2inner {
-        position: absolute;
+        height: 26vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
     .textbox2inner1 {
-        position: absolute;
-        top: 50px;
-        width: 550px;
+        width: 40vw;
     }
     
     .headingtextbox2 {
         font-size: 6vh;
         color: #04305f;
-        line-height: 5vh;
+        line-height: 5.2vh;
     }
     
     .textbox2inner2 {
-        position: absolute;
-        top: 280px;
-        width: 600px;
+        width: 40vw;
+        margin-top: 17vh;
     }
     
     .paratextbox2 {
@@ -1487,12 +1560,14 @@ a.Alinklegal:hover, a.Alinklegal:active {
     .button3 {
         display: flex;
         justify-content: space-between;
-        width: 44vw;
+        width: 40vw;
         height: 4vh;
+        margin-top: 0vh;
     }
     
     #email1 {
         border: 1px solid rgba(123, 139, 147, 0.258);
+        width: 15vw;
         background-color: white;
         border-radius: 7px;
         padding: 14px 20px;
@@ -1506,9 +1581,10 @@ a.Alinklegal:hover, a.Alinklegal:active {
         color: white;
         width: 11vw;
         text-align: center;
+        margin-left: 21vw;
         font-size: 16px;
         text-decoration: none;
-        display: inline-block;
+        display: flex;
         border-radius: 7px;
         box-shadow: 2px 5px 30px 2px #0067F3;
     }
@@ -1692,6 +1768,443 @@ a.Alinklegal:hover, a.Alinklegal:active {
         color:rgb(123, 139, 147);
         padding-top: 10px;
     }
+
+    .section3 {
+        height: 60vh;
+    }
+    
+    .container5 {
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .textbox9 {
+        width: 45vw;
+        margin-left: 2.4vw;
+    }
+    
+    .headingtextbox9 {
+        font-size: 5vh;
+        color: #04305f;
+        line-height: 6vh;
+    }
+    
+    .gridboxc5 {
+        height: 22vh;
+        width: 142vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .grid1 {
+        width: 37vw;
+        border: 1px solid #0067F3;
+        padding: 60px 30px 230px 50px;
+        border-radius: 26px;
+        display: flex;
+    }
+    
+    .grid2 {
+        width: 37vw;
+        border: 1px solid #0067F3;
+        padding: 60px 30px 230px 50px;
+        border-radius: 26px;
+        display: flex;
+    }
+    
+    .grid3 {
+        width: 37vw;
+        border: 1px solid #0067F3;
+        padding: 60px 30px 230px 50px;
+        border-radius: 26px;
+        display: flex;
+    }
+    
+    .quotebox {
+        height: 4vh;
+        width: 3vw;
+    }
+    
+    .quote {
+        font-size: 4vh;
+        color: #0067F3;
+    }
+    
+    .textboxgrid {
+        height: 30vh;
+    }
+    
+    .gridtext {
+        text-align: left;
+        color: #0067F3;
+        font-size: 50px;
+    }
+    
+    .section4 {
+        position: relative;
+        height: 60vh;
+        background-color: white;
+    }
+    
+    .container6 {
+        height: 55vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    
+    .imagebox {
+        height: 30vh;
+        display: none;
+    }
+
+    .phoneimg {
+        height: 30vh;
+    }
+    
+    .textbox10 {
+        height: 52vh;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: -20vw;
+        margin-top: 3vh;
+    }
+    
+    .headingtextbox10 {
+        width: 70vw;
+        margin-bottom: 3vh;
+    }
+    
+    .headingtext10 {
+        font-size: 3vh;
+        color: #04305f;
+        text-align: left;
+    }
+    
+    .itemtextbox10a {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .itemtextbox10b {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .itemtextbox10c {
+        width: 70vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .numberboxtb10 {
+        width: 3vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .ntb10 {
+        font-size: 22px;
+        color: #0067F3;
+        text-align: left;
+    }
+    
+    .line {
+        color: #0067F3;
+        rotate: -90deg;
+        margin-left: -1vw;
+    }
+    
+    .contentboxtb10 {
+        width: 63vw;
+        height: 8vh;
+    }
+    
+    .htb10 {
+        font-size: 1.9vh;
+        color: #04305f;
+    }
+    
+    .ptb10 {
+        font-size: 1.5vh;
+        color: rgb(88, 102, 109);
+        line-height: 25px;
+    }
+    
+    .buttontextbox10 {
+        width: 53vw;
+        height: 7vh;
+        margin-left: -16vw;
+        margin-top: -3vh;
+    }
+    
+    a.Alink6:link, a.Alink6:visited {
+        background-color: #0067F3;
+        color: white;
+        padding: 20px 40px; /*top & bottom, right & left is for 2 values*/
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 7px;
+        box-shadow: 2px 5px 30px 2px #0067F3;
+    }
+    
+    a.Alink6:hover, a.Alink6:active {
+        background-color: #0067F3;
+        color: white;
+    }
+
+    .section2 {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .container3 {
+        height: 25vh;
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .textbox4 {
+        margin: auto;
+    }
+    
+    .textbox5 {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .paratextbox5 {
+        color: rgb(104, 121, 129);
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    .textbox6 {
+       margin: auto;
+    }
+    
+    #amnt {
+        border: none;
+        height: 13vh;
+        width: 75vw;
+        display: flex;
+        margin: auto;
+        padding-top: 0vh;
+        font-size: 9vh;
+        color: #032244;
+        font-family: helvetica;
+        letter-spacing: -0.1vw;
+        cursor: text;
+    }
+    
+    #amnt::placeholder {
+        font-size: 9vh;
+        text-align: center;
+        font-family: helvetica;
+        color: #032244;
+        letter-spacing: -0.1vw;
+    }
+    
+    .headingtextbox4 {
+        font-size: 45px;
+        font-family: helvetica;
+        color: #04305f;
+        letter-spacing: -0.1vw;
+        font-weight: 600;
+    }
+    
+    .paratextbox6 {
+        color: #04305f;
+        font-size: 140px;
+    }
+    
+    sup {
+        font-size: 30px;
+    }
+    
+    #invest {
+        font-size: 20px;
+        color: #0067F3;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .scale {
+        height: 7vh;
+        align-self: center;
+        align-content: center;
+        z-index: 3;
+    }
+    
+    .slider {
+        appearance: none;
+        -webkit-appearance: none;
+        width: 85vw;
+        height: 1px;
+        background: #0067F3;
+        outline: none;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+      
+      .slider:hover {
+        opacity: 0.5;
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid rgb(104, 121, 129);
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background: #0067F3;
+        cursor: pointer;
+    }
+    
+    .textbox7 {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        height: 2vh;
+        width: 40vw;
+        margin: auto;
+    }
+    
+    .textbox7a {
+       width: 6vw;
+       cursor: pointer;
+    }
+    
+    .textbox7b {
+        width: 8vw;
+        cursor: pointer;
+    }
+    
+    .textbox7c {
+        width: 10vw;
+        cursor: pointer;
+    }
+    
+    .container4 {
+        height: 28vh;
+        width: 80vw;
+        margin: auto;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagebox4 {
+        display: inline;
+        z-index: 0;
+        position: absolute;
+    }
+    
+    .notyetimg {
+        height: 23vh;
+    }
+    
+    .textbox8 {
+        width: 80vw;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.909);
+        z-index: 1;
+        position: absolute;
+        margin-top: 0vh;
+    }
+    
+    .headingtextbox8 {
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    .headingtext8 {
+        font-size: 35px;
+        color: #032244;
+    }
+    
+    .buttontextbox8 {
+        width: 19vw;
+        margin: auto;
+    }
+    
+    a.Alink5:link, a.Alink5:visited {
+        background-color: #0067F3;
+        color: white;
+        padding: 15px 40px; /*top & bottom, right & left is for 2 values*/
+        text-align: center;
+        font-size: 1.5vh;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 7px;
+        box-shadow: 2px 5px 30px 2px #0067F3;
+    }
+    
+    a.Alink5:hover, a.Alink5:active {
+        background-color: #0047ab;
+        transition: 0.5s ease-in-out;
+        color: white;
+    }
+    
+    .canceltextbox8 {
+        width: 8vw;
+    }
+    
+    a.Alink-textbox8:link, a.Alink-textbox8:visited  {
+        font-size: 1.5vh;
+        text-decoration: none;
+        color: #0067F3;
+        font-weight: 600;
+    }
+    
+    a.Alink-textbox8:hover, a.Alink-textbox8:active {
+        color: #0047ab;
+    }
+    
+    .lowertextbox8 {
+        width: 77vw;
+        margin-top: 4vh;
+    }
+    
+    .lowertext8 {
+        font-size: 1.1vh;
+        color: rgb(123, 139, 147);
+        line-height: 2vh;
+        text-align: center;
+    }
  }
 
   /* Mobile screen */
@@ -1713,8 +2226,29 @@ a.Alinklegal:hover, a.Alinklegal:active {
     }
     
     header {
+        height: 200vh;
+        width: 243vw;
+    }
+
+    header .videobox {
+        transform: scale(1.0) translate3d(0, 0,0);
+        z-index: 0;
+        height: 200vh;
         position: relative;
-        height: 80vh;
+    }
+    
+    .videovid {
+        height: 200vh;
+        width: 243vw;
+        object-fit:cover;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        z-index: 0;
+    }
+    
+    .container1 {
+        height: 105vh;
+        width: 232vw;
     }
     
     .banner {
@@ -1739,6 +2273,11 @@ a.Alinklegal:hover, a.Alinklegal:active {
     .bannerbox .show {
         display: flex;
         transition: 1s ease-in-out;
+    }
+
+    .cwlogo {
+        height: 60px;
+        width: 266px;
     }
     
     .logobox {
@@ -1831,91 +2370,47 @@ a.Alinklegal:hover, a.Alinklegal:active {
         height: 5vh;
         width: 10vw;
         z-index: 99;
-        position: relative;
-        top: -85vh;
-        left: 215vw;
-      }
+        margin-top: 6vh;
+        margin-left: 215vw;
+    }
     
-      .fa-solid {
+    .fa-solid {
         color: black;
         font-size: 5vh;
-      }
-    
-    header .videobox {
-        height: 80%;
-        width: 100%;
-        transform: scale(1.0) translate3d(0, 0, 0);
-        z-index: 0;
-        position: relative;
-    }
-    
-    .videovid {
-        height: 90vh;
-        object-fit:cover;
-        overflow-clip-margin: content-box;
-        overflow: clip;
-    }
-    
-    .container1 {
-        position: relative;
-    }
-    
-    .imageboxinner {
-        position: absolute;
-    }
-    
-    .imageboxinner1 {
-        position: absolute;
-        top: 880px;
-        left: 50px;
-    }
-    
-    .imageboxinner2 {
-        position: absolute;
-        top: 880px;
-        left: 120px;
-    }
-    
-    .imageboxinner3 {
-        position: absolute;
-        top: 880px;
-        left: 190px;
-        padding-bottom: 60px;
     }
     
     .textbox2 {
-        height: 60vh;
-        width: 140vw;
-        margin-left: 5vw;
-        margin-top: -78vh;
-        display: flex;
-        flex-direction: column;
+        height: 70vh;
+        width: 200vw;
+        margin-left: 10vw;
+        margin-top: 110vh;
     }
     
     .textbox2inner {
-        position: absolute;
+        width: 190vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
     .textbox2inner1 {
-        position: absolute;
-        top: 0px;
-        width: 600px;
+        width: 150vw;
     }
     
     .headingtextbox2 {
-        font-size: 11vh;
+        font-size: 14vh;
         color: #04305f;
-        line-height: 10vh;
+        line-height: 13vh;
     }
     
     .textbox2inner2 {
-        position: absolute;
-        top: 306px;
-        width: 600px;
+        width: 170vw;
+        margin-top: 44vh;
     }
     
     .paratextbox2 {
-        font-size: 5vh;
+        font-size: 6vh;
         text-align: left;
         color: #04305f;
         font-weight: 500;
@@ -1925,10 +2420,8 @@ a.Alinklegal:hover, a.Alinklegal:active {
     .button3 {
         display: flex;
         justify-content: space-between;
-        width: 130vw;
-        position: absolute;
-        top: 44vh;
         height: 13vh;
+        width: 150vw;
     }
     
     #email1 {
@@ -1945,12 +2438,12 @@ a.Alinklegal:hover, a.Alinklegal:active {
     a.Alink3:link, a.Alink3:visited {
         background-color: #0067F3;
         color: white;
-        width: 90vw;
+        width: 120vw;
         height: 9vh;
         display: flex;
         align-content: center;
         text-align: center;
-        font-size: 4vh;
+        font-size: 5vh;
         text-decoration: none;
         display: inline-block;
         border-radius: 10px;
@@ -1964,13 +2457,14 @@ a.Alinklegal:hover, a.Alinklegal:active {
     }
     
     .section1 {
-        height: 70vh;
+        height: 200vh;
+        width: 243vw;
         background-image: url("bars.png");
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position-x: 100%;
         background-position-y: 100%;
-        background-size: 108%;
+        background-size: 190%;
         background-origin: padding-box;
         z-index: 0;
         object-fit: cover;
@@ -1978,34 +2472,35 @@ a.Alinklegal:hover, a.Alinklegal:active {
     }
     
     .container2 {
-        height: 70vh;
+        height: 180vh;
         display: flex;
-        justify-content: space-around;
-       align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     
     .textbox3 {
-        height: 30vh;
-        width: 42vw;
+        height: 66vh;
+        width: 200vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: -24vh;
-        margin-left: 1.5vw;
+        margin-top: 0vh;
+        margin-left: -8vw;
     }
     
     .headingtextbox3 {
         font-family: helvetica;
-        font-size: 6vh;
+        font-size: 12vh;
         color: #04305f;
-        line-height: 6vh;
+        line-height: 12vh;
         font-weight: 700;
+        text-align: left;
         letter-spacing: -0.1vw;
     }
     
     .little {
         font-family: helvetica;
-        font-size: 6vh;
+        font-size: 12vh;
         color: #04305f;
         font-weight: 100;
     }
@@ -2014,7 +2509,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
     }
     
     .paratextbox3 {
-        font-size: 2.1vh;
+        font-size: 7vh;
         text-align: left;
         color: #04305f;
         font-weight: 500;
@@ -2022,15 +2517,15 @@ a.Alinklegal:hover, a.Alinklegal:active {
     }
     
     .button4 {
-        left: 2px;
+        display: inline-block;
     }
     
     a.Alink4:link, a.Alink4:visited {
         background-color: #0067F3;
         color: white;
-        padding: 12px 28px; /*top & bottom, right & left is for 2 values*/
+        padding: 25px 35px; /*top & bottom, right & left is for 2 values*/
         text-align: center;
-        font-size: 1.3vh;
+        font-size: 5vh;
         text-decoration: none;
         display: inline-block;
         border-radius: 7px;
@@ -2054,8 +2549,8 @@ a.Alinklegal:hover, a.Alinklegal:active {
     
     .floatingboxes {
         position: relative;
-        height: 50vh;
-        width: 50vw;
+        height: 90vh;
+        width: 190vw;
         margin-top: 0vh;
     }
     
@@ -2063,12 +2558,12 @@ a.Alinklegal:hover, a.Alinklegal:active {
         position: absolute;
         background-color: white;
         padding: 20px 28px;
-        width: 220px;
+        width: 73vw;
         border-radius: 12px;
         text-align: left;
         border: 1px solid rgba(123, 139, 147, 0.258);
-        top: 40vh;
-        left: -21vh;
+        top: 60vh;
+        left: -6vh;
     }
     
     .fb1 {
@@ -2076,12 +2571,12 @@ a.Alinklegal:hover, a.Alinklegal:active {
         background-color: white;
         padding: 10px 15px;
         border-radius: 55px;
-        top: 40vh;
-        left: 1vw;
+        top: 60vh;
+        left: 78vw;
     }
     
     .fb1number, .fb2number, .fb3number {
-        font-size: 1.6vh;
+        font-size: 5vh;
         color: #04305f;
     }
     
@@ -2089,12 +2584,12 @@ a.Alinklegal:hover, a.Alinklegal:active {
         position: absolute;
         background-color: white;
         padding: 20px 28px;
-        width: 225px;
+        width: 80vw;
         border-radius: 12px;
         text-align: left;
         border: 1px solid rgba(123, 139, 147, 0.258);
         top: 29vh;
-        left: -10vw;
+        left: 8vw;
     }
     
     .fb2 {
@@ -2103,19 +2598,19 @@ a.Alinklegal:hover, a.Alinklegal:active {
         padding: 10px 15px;
         border-radius: 55px;
         top: 29vh;
-        left: 20vw;
+        left: 105vw;
     }
     
     .floatingbox3 {
         position: absolute;
         background-color: white;
         padding: 20px 28px;
-        width: 220px;
+        width: 80vw;
         border-radius: 12px;
         text-align: left;
         border: 1px solid rgba(123, 139, 147, 0.258);
-        left: 9vw;
-        top: 16vh;
+        top: 0vh;
+        left: 35vh;
     }
     
     .fb3 {
@@ -2123,18 +2618,461 @@ a.Alinklegal:hover, a.Alinklegal:active {
         background-color: white;
         padding: 10px 15px;
         border-radius: 55px;
-        left: 38vw;
-        top: 16vh;
+        top: 0vh;
+        left: 80vh;
     }
     
     .floatingboxheading {
-        font-size: 16px;
+        font-size: 3vh;
         color: #04305f;
     }
     
     .floatingboxpara {
-        font-size: 13px;
+        font-size: 2vh;
         color:rgb(123, 139, 147);
         padding-top: 10px;
+    }
+
+    .section3 {
+        height: 145vh;
+        width: 243vw;
+    }
+    
+    .container5 {
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .textbox9 {
+        width: 200vw;
+        margin-left: 15vw;
+    }
+    
+    .headingtextbox9 {
+        font-size: 11vh;
+        color: #04305f;
+        line-height: 12vh;
+    }
+    
+    .gridboxc5 {
+        height: 50vh;
+        width: 550vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3vh;
+    }
+    
+    .grid1 {
+        width: 155vw;
+        border: 1px solid #0067F3;
+        padding: 60px 30px 230px 50px;
+        border-radius: 26px;
+        display: flex;
+    }
+    
+    .grid2 {
+        width: 155vw;
+        border: 1px solid #0067F3;
+        padding: 60px 30px 230px 50px;
+        border-radius: 26px;
+        display: flex;
+    }
+    
+    .grid3 {
+        width: 155vw;
+        border: 1px solid #0067F3;
+        padding: 60px 30px 230px 50px;
+        border-radius: 26px;
+        display: flex;
+    }
+    
+    .quotebox {
+        height: 10vh;
+        width: 10vw;
+    }
+    
+    .quote {
+        font-size: 13vh;
+        color: #0067F3;
+    }
+    
+    .textboxgrid {
+        height: 40vh;
+    }
+    
+    .gridtext {
+        text-align: left;
+        color: #0067F3;
+        font-size: 8.5vh;
+    }
+    
+    .section4 {
+        position: relative;
+        height: 355vh;
+        width: 243vw;
+        background-color: white;
+    }
+    
+    .container6 {
+        height: 350vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .imagebox {
+        height: 160vh;
+        display: flex;
+        padding-top: 2vh;
+    }
+
+    .phoneimg {
+        height: 160vh;
+    }
+    
+    .textbox10 {
+        height: 170vh;
+        width: 218vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        margin-left: 6vw;
+        margin-top: 3vh;
+    }
+    
+    .headingtextbox10 {
+        width: 200vw;
+        margin-bottom: 3vh;
+    }
+    
+    .headingtext10 {
+        font-size: 8vh;
+        color: #04305f;
+        text-align: left;
+    }
+    
+    .itemtextbox10a {
+        width: 200vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .itemtextbox10b {
+        width: 200vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .itemtextbox10c {
+        width: 200vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .numberboxtb10 {
+        width: 15vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .ntb10 {
+        font-size: 5.2vh;
+        color: #0067F3;
+        text-align: left;
+    }
+    
+    .line {
+        color: #0067F3;
+        rotate: -90deg;
+        font-size: 3.3vh;
+        margin-left: -5vw;
+    }
+    
+    .contentboxtb10 {
+        width: 175vw;
+        height: 8vh;
+    }
+    
+    .htb10 {
+        font-size: 5.2vh;
+        color: #04305f;
+    }
+    
+    .ptb10 {
+        font-size: 4.2vh;
+        color: rgb(88, 102, 109);
+        line-height: 6vh;
+    }
+    
+    .buttontextbox10 {
+        width: 100vw;
+        height: 15vh;
+        margin-left: -96vw;
+        margin-top: -3vh;
+    }
+    
+    a.Alink6:link, a.Alink6:visited {
+        background-color: #0067F3;
+        color: white;
+        padding: 40px 100px; /*top & bottom, right & left is for 2 values*/
+        text-align: center;
+        font-size: 35px;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px;
+        box-shadow: 2px 5px 30px 2px #0067F3;
+    }
+    
+    a.Alink6:hover, a.Alink6:active {
+        background-color: #0067F3;
+        color: white;
+    }
+
+    .section2 {
+        height: 200vh;
+        width: 243vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .container3 {
+        height: 55vh;
+        width: 230vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .textbox4 {
+        margin: auto;
+    }
+    
+    .textbox5 {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .paratextbox5 {
+        color: rgb(104, 121, 129);
+        font-size: 7.5vh;
+        text-align: center;
+    }
+    
+    .textbox6 {
+       margin: auto;
+    }
+    
+    #amnt {
+        height: 20vh;
+        width: 200vw;
+        display: flex;
+        margin: auto;
+        padding-top: 0vh;
+        font-size: 15vh;
+        color: #032244;
+        font-family: helvetica;
+        letter-spacing: -0.1vw;
+        cursor: text;
+    }
+    
+    #amnt::placeholder {
+        font-size: 15vh;
+        text-align: center;
+        font-family: helvetica;
+        color: #032244;
+        letter-spacing: -0.1vw;
+    }
+    
+    .headingtextbox4 {
+        font-size: 9vh;
+        color: #04305f;
+        letter-spacing: -0.1vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .paratextbox6 {
+        color: #04305f;
+        font-size: 140px;
+    }
+    
+    sup {
+        font-size: 30px;
+    }
+    
+    #invest {
+        font-size: 5vh;
+        color: #0067F3;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .scale {
+        height: 7vh;
+        align-self: center;
+        align-content: center;
+        z-index: 3;
+    }
+    
+    .slider {
+        appearance: none;
+        -webkit-appearance: none;
+        width: 200vw;
+        height: 1px;
+        background: #0067F3;
+        outline: none;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+      
+      .slider:hover {
+        opacity: 0.5;
+      }
+      
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid rgb(104, 121, 129);
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        background: #0067F3;
+        cursor: pointer;
+    }
+    
+    .textbox7 {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        height: 10vh;
+        width: 220vw;
+        margin: auto;
+    }
+    
+    .textbox7a {
+       width: 40vw;
+       cursor: pointer;
+    }
+    
+    .textbox7b {
+        width: 55vw;
+        cursor: pointer;
+    }
+    
+    .textbox7c {
+        width: 65vw;
+        cursor: pointer;
+    }
+    
+    .container4 {
+        height: 85vh;
+        width: 220vw;
+        margin: auto;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagebox4 {
+        display: inline;
+        z-index: 0;
+        position: absolute;
+    }
+    
+    .notyetimg {
+        height: 40vh;
+    }
+    
+    .textbox8 {
+        width: 220vw;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.909);
+        z-index: 1;
+        position: absolute;
+        margin-top: 0vh;
+    }
+    
+    .headingtextbox8 {
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    .headingtext8 {
+        font-size: 8vh;
+        color: #032244;
+    }
+    
+    .buttontextbox8 {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    a.Alink5:link, a.Alink5:visited {
+        background-color: #0067F3;
+        color: white;
+        padding: 30px 60px; /*top & bottom, right & left is for 2 values*/
+        text-align: center;
+        font-size: 5vh;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px;
+        box-shadow: 2px 5px 30px 2px #0067F3;
+    }
+    
+    a.Alink5:hover, a.Alink5:active {
+        background-color: #0047ab;
+        transition: 0.5s ease-in-out;
+        color: white;
+    }
+    
+    .canceltextbox8 {
+        width: 40vw;
+    }
+    
+    a.Alink-textbox8:link, a.Alink-textbox8:visited  {
+        font-size: 4.5vh;
+        text-decoration: none;
+        color: #0067F3;
+        font-weight: 600;
+    }
+    
+    a.Alink-textbox8:hover, a.Alink-textbox8:active {
+        color: #0047ab;
+    }
+    
+    .lowertextbox8 {
+        width: 210vw;
+        margin-top: 20vh;
+    }
+    
+    .lowertext8 {
+        font-size: 3.7vh;
+        color: rgb(88, 102, 109);
+        line-height: 6vh;
+        text-align: center;
     }
 }
