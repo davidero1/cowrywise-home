@@ -408,11 +408,13 @@ a.Alink4:hover, a.Alink4:active {
 }
 
 .gridboxc5 {
-    height: 50vh;
-    width: 117vw;
+    height: 55vh;
+    width: 120vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 3vw;
+    overflow: scroll;
 }
 
 .grid1 {
@@ -1215,51 +1217,46 @@ a.Alinkc8:hover, a.Alinkc8:active {
 
 .footer1 {
     position: relative;
-    top: 3610px;
+    height: 185vh;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footergridcontainer1 {
-    position: absolute;
-    left: 33px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6vh;
 }
 
 .fgc1 {
-    position: absolute;
-    height: 400px;
-    left: 27px;
-    top: 10px;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 60vh;
 }
 
 .fgc2 {
-    position: absolute;
-    height: 400px;
-    left: 300px;
-    top: 10px;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 70vh;
 }
 
 .fgc3 {
-    position: absolute;
-    height: 400px;
-    left: 630px;
-    top: 10px;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 80vh;
 }
 
 .fgc4 {
-    position: absolute;
-    height: 400px;
-    left: 930px;
-    top: 10px;
-    width: 100px;
-}
-
-.fgc5 {
-    position: absolute;
-    height: 400px;
-    left: 900px;
-    top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 20vh;
 }
 
 .fgc1heading {
@@ -1273,12 +1270,12 @@ a.Alinkc8:hover, a.Alinkc8:active {
 }
 
 .fgcli {
-    color: rgb(123, 139, 147);
+    color: #6c82a3;
     font-size: 17px;
 }
 
 a.Alinkfgc:link, a.Alinkfgc:visited {
-    color: rgb(123, 139, 147); 
+    color: #6c82a3; 
     text-align: left;
     font-size: 13px;
     letter-spacing: 1px;
@@ -1291,27 +1288,34 @@ a.Alinkfgc:hover, a.Alinkfgc:active {
 }
 
 .footergridcontainer2 {
-    position: absolute;
-    left: 33px;
-    top: 633px;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-left: 3vw;
 }
 
 .socialsbox {
-    position: relative;
-    top: 8px;
-    left: 8px;
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .fa-brands {
-    color: rgb(123, 139, 147);
+    color: #6c82a3;
     font-size: 20px;
 }
 
+.addsec {
+    display: flex;
+    justify-content: space-between;
+    width: 86vw;
+}
+
 .addressbox {
-    position: absolute;
-    top: 85px;
-    width: 500px;
     line-height: 25px;
+    width: 58vw;
 }
 
 .ngadd {
@@ -1325,31 +1329,34 @@ a.Alinkfgc:hover, a.Alinkfgc:active {
 }
 
 .secimagebox {
-    position: absolute;
-    top: 80px;
-    left: 980px;
     width: 225px;
     height: 65px;
     background-color: white;
-    border: 1px solid rgb(123, 139, 147);
+    border: 1px solid #6c82a3;
     border-radius: 10px;
+    align-content: center;
 }
 
 .seclogo {
-    position: absolute;
-    top: 15px;
     left: 18px;
 }
 
+.seclogoimg {
+    height: 7vh;
+    padding-top: 0vh;
+}
+
 .sec {
-    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 16vw;
 }
 
 .sectext {
-    position: absolute;
-    width: 150px;
-    left: 63px;
-    top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .hsect {
@@ -1358,26 +1365,24 @@ a.Alinkfgc:hover, a.Alinkfgc:active {
 }
 
 .psect {
-    font-size: 10px;
-    color: rgb(123, 139, 147);
+    font-size: 13px;
+    color: #6c82a3;
     padding-top: 3px;
 }
 
 .legalbox {
-    position: absolute;
-    top: 200px;
-    width: 1200px;
+    width: 85vw;
+    height: 44vh;
 }
 
 .legaltextbox {
-    position: absolute;
-    background-color: white;
-    padding-bottom: 60px;
+    width: 85vw;
+    height: 48vh;
 }
 
 .paralegal {
     font-size: 12px;
-    color: rgb(123, 139, 147);
+    color: #6c82a3;
     line-height: 20px;
 }
 
@@ -1823,6 +1828,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        overflow: scroll;
     }
     
     .grid1 {
@@ -2628,6 +2634,191 @@ a.Alinklegal:hover, a.Alinklegal:active {
         background-color: #04305f;
         color: white;
     }
+
+    .footer1 {
+        position: relative;
+        height: 153vh;
+        width: 93vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footergridcontainer1 {
+        height: 80vh;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 6vh;
+        flex-wrap: wrap;
+    }
+    
+    .fgc1 {
+        display: flex;
+        flex-direction: column;
+        width: 33vw;
+        height: 32vh;
+    }
+    
+    .fgc2 {
+        display: flex;
+        flex-direction: column;
+        width: 33vw;
+        height: 32vh;
+    }
+    
+    .fgc3 {
+        display: flex;
+        flex-direction: column;
+        width: 33vw;
+        height: 40vh;
+    }
+    
+    .fgc4 {
+        display: flex;
+        flex-direction: column;
+        width: 33vw;
+        height: 10vh;
+    }
+    
+    .fgc1heading {
+        font-size: 23px;
+        color: #04305f;
+    }
+    
+    .fgc1ul {
+        line-height: 42px;
+        list-style-type: none;
+    }
+    
+    .fgcli {
+        color: #6c82a3;
+        font-size: 17px;
+    }
+    
+    a.Alinkfgc:link, a.Alinkfgc:visited {
+        color: #6c82a3; 
+        text-align: left;
+        font-size: 17px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    a.Alinkfgc:hover, a.Alinkfgc:active {
+        color: #0067F3;
+    }
+    
+    .footergridcontainer2 {
+        display: flex;
+        height: 60vh;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5vh;
+        padding-left: 3vw;
+    }
+    
+    .socialsbox {
+        width: 20vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .fa-brands {
+        color: #6c82a3;
+        font-size: 20px;
+    }
+    
+    .addsec {
+        display: flex;
+        justify-content: space-between;
+        width: 85vw;
+    }
+    
+    .addressbox {
+        line-height: 25px;
+        width: 50vw;
+    }
+    
+    .ngadd {
+        font-size: 16px;
+        color: #04305f;
+    }
+    
+    .usadd {
+        font-size: 16px;
+        color: #04305f;
+    }
+    
+    .secimagebox {
+        width: 225px;
+        height: 65px;
+        background-color: white;
+        border: 1px solid #6c82a3;
+        border-radius: 10px;
+        align-content: center;
+    }
+    
+    .seclogo {
+        left: 18px;
+    }
+
+    .seclogoimg {
+        height: 3vh;
+        padding-top: 0vh;
+    }
+    
+    .sec {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 20vw;
+    }
+    
+    .sectext {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .hsect {
+        font-size: 14px;
+        color: #04305f;
+    }
+    
+    .psect {
+        font-size: 12px;
+        color: #6c82a3;
+        padding-top: 3px;
+    }
+    
+    .legalbox {
+        width: 85vw;
+        height: 44vh;
+    }
+    
+    .legaltextbox {
+        width: 85vw;
+        height: 48vh;
+    }
+    
+    .paralegal {
+        font-size: 14px;
+        color: #6c82a3;
+        line-height: 20px;
+    }
+    
+    a.Alinklegal:link, a.Alinklegal:visited {
+        color: #0067F3;
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    a.Alinklegal:hover, a.Alinklegal:active {
+        color: #0067F3;
+    }
  }
 
   /* Mobile screen */
@@ -3086,6 +3277,7 @@ a.Alinklegal:hover, a.Alinklegal:active {
         flex-direction: row;
         justify-content: space-between;
         padding: 3vh;
+        overflow: scroll;
     }
     
     .grid1 {
@@ -3914,5 +4106,191 @@ a.Alinklegal:hover, a.Alinklegal:active {
     a.Alinkc8:hover, a.Alinkc8:active {
         background-color: #04305f;
         color: white;
+    }
+
+    .footer1 {
+        position: relative;
+        height: 500vh;
+        width: 271vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footergridcontainer1 {
+        height: 216vh;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 6vh;
+        flex-wrap: wrap;
+    }
+    
+    .fgc1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 80vh;
+    }
+    
+    .fgc2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 90vh;
+    }
+    
+    .fgc3 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 110vh;
+    }
+    
+    .fgc4 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 30vh;
+    }
+    
+    .fgc1heading {
+        font-size: 50px;
+        color: #04305f;
+    }
+    
+    .fgc1ul {
+        line-height: 80px;
+        list-style-type: none;
+    }
+    
+    .fgcli {
+        color: #6c82a3;
+    }
+    
+    a.Alinkfgc:link, a.Alinkfgc:visited {
+        color: #6c82a3; 
+        text-align: left;
+        font-size: 39px;
+        letter-spacing: 0px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    a.Alinkfgc:hover, a.Alinkfgc:active {
+        color: #0067F3;
+    }
+    
+    .footergridcontainer2 {
+        display: flex;
+        height: 350vh;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5vh;
+        padding-left: 15vw;
+    }
+    
+    .socialsbox {
+        width: 150vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .fa-brands {
+        color: #6c82a3;
+        font-size: 40px;
+    }
+    
+    .addsec {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 230vw;
+        height: 50vh;
+    }
+    
+    .addressbox {
+        line-height: 50px;
+        width: 220vw;
+    }
+    
+    .ngadd {
+        font-size: 40px;
+        color: #04305f;
+    }
+    
+    .usadd {
+        font-size: 40px;
+        color: #04305f;
+    }
+    
+    .secimagebox {
+        width: 600px;
+        height: 160px;
+        background-color: white;
+        border: 1px solid #6c82a3;
+        border-radius: 20px;
+        align-content: center;
+    }
+    
+    .seclogo {
+        left: 18px;
+    }
+
+    .seclogoimg {
+        height: 7vh;
+        padding-top: 2vh;
+    }
+    
+    .sec {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 122vw;
+    }
+    
+    .sectext {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .hsect {
+        font-size: 45px;
+        color: #04305f;
+    }
+    
+    .psect {
+        font-size: 35px;
+        color: #6c82a3;
+        padding-top: 3px;
+    }
+    
+    .legalbox {
+        width: 237vw;
+        height: 210vh;
+    }
+    
+    .legaltextbox {
+        width: 230vw;
+        height: 205vh;
+    }
+    
+    .paralegal {
+        font-size: 40px;
+        color: #6c82a3;
+        line-height: 55px;
+    }
+    
+    a.Alinklegal:link, a.Alinklegal:visited {
+        color: #0067F3;
+        text-align: left;
+        font-size: 40px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    a.Alinklegal:hover, a.Alinklegal:active {
+        color: #0067F3;
     }
 }
